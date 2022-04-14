@@ -11,7 +11,7 @@ public:
 	Node<T>* GetNode();
 	void SetNode(Node<T>* n);
 	~Node();
-	friend class Stack;
+	template class <T> friend class Stack;
 private:
 	T Data;
 	Node<T>* Next;
