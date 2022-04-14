@@ -1,8 +1,7 @@
 #pragma once
-#include "Node.h"
 using namespace std;
 template <class T>
-
+template <class T> class <Node.h>
 class Stack
 {
 public:
